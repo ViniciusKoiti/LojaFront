@@ -1,0 +1,24 @@
+.menu {
+  padding: 10px;
+  position: fixed;
+  top: 0; /* Fixar o menu no topo */
+  left: 0; /* Fixar o menu na esquerda */
+  width: 100%; /* Preencher toda a largura da tela */
+  z-index: 100; /* Definir um valor de z-index para garantir que o menu fique acima de outros elementos */
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+li {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+li:hover {
+	text-decoration: underline;
+}
